@@ -1,0 +1,11 @@
+D:\Visual Studio\AnchorDock\AnchorDock\bin\Debug\AnchorDock.exe.config
+D:\Visual Studio\AnchorDock\AnchorDock\bin\Debug\AnchorDock.exe
+D:\Visual Studio\AnchorDock\AnchorDock\bin\Debug\AnchorDock.pdb
+D:\Visual Studio\AnchorDock\AnchorDock\bin\Debug\AnchorDock.xml
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.Form1.resources
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.Resources.resources
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.vbproj.GenerateResource.Cache
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.exe
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.xml
+D:\Visual Studio\AnchorDock\AnchorDock\obj\Debug\AnchorDock.pdb

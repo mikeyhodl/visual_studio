@@ -1,0 +1,12 @@
+D:\Visual Studio\TimesApp\TimesApp\bin\Release\TimesApp.exe.config
+D:\Visual Studio\TimesApp\TimesApp\bin\Release\TimesApp.exe
+D:\Visual Studio\TimesApp\TimesApp\bin\Release\TimesApp.pdb
+D:\Visual Studio\TimesApp\TimesApp\bin\Release\TimesApp.xml
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.Form1.resources
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.Resources.resources
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.vbproj.GenerateResource.Cache
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.exe
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.xml
+D:\Visual Studio\TimesApp\TimesApp\obj\Release\TimesApp.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMajorOffences" targetNamespace="http://tempuri.org/dsMajorOffences.xsd" xmlns:mstns="http://tempuri.org/dsMajorOffences.xsd" xmlns="http://tempuri.org/dsMajorOffences.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMajorOffences" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsMajorOffences" msprop:Generator_UserDSName="dsMajorOffences">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMajorOffences" msprop:Generator_TableClassName="dtMajorOffencesDataTable" msprop:Generator_TableVarName="tabledtMajorOffences" msprop:Generator_TablePropName="dtMajorOffences" msprop:Generator_RowDeletingName="dtMajorOffencesRowDeleting" msprop:Generator_RowChangingName="dtMajorOffencesRowChanging" msprop:Generator_RowEvHandlerName="dtMajorOffencesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMajorOffencesRowDeleted" msprop:Generator_UserTableName="dtMajorOffences" msprop:Generator_RowChangedName="dtMajorOffencesRowChanged" msprop:Generator_RowEvArgName="dtMajorOffencesRowChangeEvent" msprop:Generator_RowClassName="dtMajorOffencesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="CLASS" msprop:Generator_ColumnVarNameInTable="columnCLASS" msprop:Generator_ColumnPropNameInRow="_CLASS" msprop:Generator_ColumnPropNameInTable="CLASSColumn" msprop:Generator_UserColumnName="CLASS" type="xs:string" minOccurs="0" />
+              <xs:element name="STREAM" msprop:Generator_ColumnVarNameInTable="columnSTREAM" msprop:Generator_ColumnPropNameInRow="STREAM" msprop:Generator_ColumnPropNameInTable="STREAMColumn" msprop:Generator_UserColumnName="STREAM" type="xs:string" minOccurs="0" />
+              <xs:element name="DATEOFOCCURENCE" msprop:Generator_ColumnVarNameInTable="columnDATEOFOCCURENCE" msprop:Generator_ColumnPropNameInRow="DATEOFOCCURENCE" msprop:Generator_ColumnPropNameInTable="DATEOFOCCURENCEColumn" msprop:Generator_UserColumnName="DATEOFOCCURENCE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ADMISSIONNUMBER" msprop:Generator_ColumnVarNameInTable="columnADMISSIONNUMBER" msprop:Generator_ColumnPropNameInRow="ADMISSIONNUMBER" msprop:Generator_ColumnPropNameInTable="ADMISSIONNUMBERColumn" msprop:Generator_UserColumnName="ADMISSIONNUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="TERM" msprop:Generator_ColumnVarNameInTable="columnTERM" msprop:Generator_ColumnPropNameInRow="TERM" msprop:Generator_ColumnPropNameInTable="TERMColumn" msprop:Generator_UserColumnName="TERM" type="xs:string" minOccurs="0" />
+              <xs:element name="NAMEOFSTUDENT" msprop:Generator_ColumnVarNameInTable="columnNAMEOFSTUDENT" msprop:Generator_ColumnPropNameInRow="NAMEOFSTUDENT" msprop:Generator_ColumnPropNameInTable="NAMEOFSTUDENTColumn" msprop:Generator_UserColumnName="NAMEOFSTUDENT" type="xs:string" minOccurs="0" />
+              <xs:element name="GENDER" msprop:Generator_ColumnVarNameInTable="columnGENDER" msprop:Generator_ColumnPropNameInRow="GENDER" msprop:Generator_ColumnPropNameInTable="GENDERColumn" msprop:Generator_UserColumnName="GENDER" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPEOFOFFENSE" msprop:Generator_ColumnVarNameInTable="columnTYPEOFOFFENSE" msprop:Generator_ColumnPropNameInRow="TYPEOFOFFENSE" msprop:Generator_ColumnPropNameInTable="TYPEOFOFFENSEColumn" msprop:Generator_UserColumnName="TYPEOFOFFENSE" type="xs:string" minOccurs="0" />
+              <xs:element name="OFFENSECATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="KCPEMARKS" msprop:Generator_ColumnVarNameInTable="columnKCPEMARKS" msprop:Generator_ColumnPropNameInRow="KCPEMARKS" msprop:Generator_ColumnPropNameInTable="KCPEMARKSColumn" msprop:Generator_UserColumnName="KCPEMARKS" type="xs:float" minOccurs="0" />
+              <xs:element name="KCPEGRADE" msprop:Generator_ColumnVarNameInTable="columnKCPEGRADE" msprop:Generator_ColumnPropNameInRow="KCPEGRADE" msprop:Generator_ColumnPropNameInTable="KCPEGRADEColumn" msprop:Generator_UserColumnName="KCPEGRADE" type="xs:string" minOccurs="0" />
+              <xs:element name="KCPEPOINTS" msprop:Generator_ColumnVarNameInTable="columnKCPEPOINTS" msprop:Generator_ColumnPropNameInRow="KCPEPOINTS" msprop:Generator_ColumnPropNameInTable="KCPEPOINTSColumn" msprop:Generator_UserColumnName="KCPEPOINTS" type="xs:float" minOccurs="0" />
+              <xs:element name="CURRENTMARKS" msprop:Generator_ColumnVarNameInTable="columnCURRENTMARKS" msprop:Generator_ColumnPropNameInRow="CURRENTMARKS" msprop:Generator_ColumnPropNameInTable="CURRENTMARKSColumn" msprop:Generator_UserColumnName="CURRENTMARKS" type="xs:float" minOccurs="0" />
+              <xs:element name="CURRENTPOINTS" msprop:Generator_ColumnVarNameInTable="columnCURRENTPOINTS" msprop:Generator_ColumnPropNameInRow="CURRENTPOINTS" msprop:Generator_ColumnPropNameInTable="CURRENTPOINTSColumn" msprop:Generator_UserColumnName="CURRENTPOINTS" type="xs:float" minOccurs="0" />
+              <xs:element name="CURRENTGRADE" msprop:Generator_ColumnVarNameInTable="columnCURRENTGRADE" msprop:Generator_ColumnPropNameInRow="CURRENTGRADE" msprop:Generator_ColumnPropNameInTable="CURRENTGRADEColumn" msprop:Generator_UserColumnName="CURRENTGRADE" type="xs:string" minOccurs="0" />
+              <xs:element name="STUDENTVAP" msprop:Generator_ColumnVarNameInTable="columnSTUDENTVAP" msprop:Generator_ColumnPropNameInRow="STUDENTVAP" msprop:Generator_ColumnPropNameInTable="STUDENTVAPColumn" msprop:Generator_UserColumnName="STUDENTVAP" type="xs:float" minOccurs="0" />
+              <xs:element name="DORMITORIES" msprop:Generator_ColumnVarNameInTable="columnDORMITORIES" msprop:Generator_ColumnPropNameInRow="DORMITORIES" msprop:Generator_ColumnPropNameInTable="DORMITORIESColumn" msprop:Generator_UserColumnName="DORMITORIES" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPEOFPUNISHMENT" msprop:Generator_ColumnVarNameInTable="columnTYPEOFPUNISHMENT" msprop:Generator_ColumnPropNameInRow="TYPEOFPUNISHMENT" msprop:Generator_ColumnPropNameInTable="TYPEOFPUNISHMENTColumn" msprop:Generator_UserColumnName="TYPEOFPUNISHMENT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

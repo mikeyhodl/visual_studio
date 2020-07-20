@@ -1,0 +1,12 @@
+D:\Visual Studio\Mike Surf\Mike Surf\bin\Release\Mike Surf.exe.config
+D:\Visual Studio\Mike Surf\Mike Surf\bin\Release\Mike Surf.exe
+D:\Visual Studio\Mike Surf\Mike Surf\bin\Release\Mike Surf.pdb
+D:\Visual Studio\Mike Surf\Mike Surf\bin\Release\Mike Surf.xml
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike_Surf.Form1.resources
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike_Surf.Resources.resources
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.vbproj.GenerateResource.Cache
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.exe
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.xml
+D:\Visual Studio\Mike Surf\Mike Surf\obj\Release\Mike Surf.pdb

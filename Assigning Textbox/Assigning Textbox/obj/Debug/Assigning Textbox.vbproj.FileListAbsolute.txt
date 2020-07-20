@@ -1,0 +1,13 @@
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\bin\Debug\Assigning Textbox.exe.config
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\bin\Debug\Assigning Textbox.exe
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\bin\Debug\Assigning Textbox.pdb
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\bin\Debug\Assigning Textbox.xml
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning_Textbox.Form1.resources
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning_Textbox.Resources.resources
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.vbproj.GenerateResource.Cache
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.exe
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.xml
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning Textbox.pdb
+D:\Visual Studio\Assigning Textbox\Assigning Textbox\obj\Debug\Assigning_Textbox.frmSecond.resources

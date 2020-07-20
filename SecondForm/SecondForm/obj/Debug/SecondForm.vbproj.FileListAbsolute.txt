@@ -1,0 +1,13 @@
+D:\Visual Studio\SecondForm\SecondForm\bin\Debug\SecondForm.exe.config
+D:\Visual Studio\SecondForm\SecondForm\bin\Debug\SecondForm.exe
+D:\Visual Studio\SecondForm\SecondForm\bin\Debug\SecondForm.pdb
+D:\Visual Studio\SecondForm\SecondForm\bin\Debug\SecondForm.xml
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.Form1.resources
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.Resources.resources
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.frmSecond.resources
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.vbproj.GenerateResource.Cache
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.exe
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.xml
+D:\Visual Studio\SecondForm\SecondForm\obj\Debug\SecondForm.pdb

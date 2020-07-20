@@ -1,0 +1,13 @@
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\bin\Debug\prjStudentsMarks.exe.config
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\bin\Debug\prjStudentsMarks.exe
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\bin\Debug\prjStudentsMarks.pdb
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\bin\Debug\prjStudentsMarks.xml
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.Form1.resources
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.frmStudentsMarks.resources
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.Resources.resources
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.vbproj.GenerateResource.Cache
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.exe
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.xml
+D:\Visual Studio\prjStudentsMarks\prjStudentsMarks\obj\Debug\prjStudentsMarks.pdb

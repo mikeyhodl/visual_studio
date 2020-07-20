@@ -1,0 +1,12 @@
+D:\Visual Studio\MainMenu\MainMenu\bin\Release\MainMenu.exe.config
+D:\Visual Studio\MainMenu\MainMenu\bin\Release\MainMenu.exe
+D:\Visual Studio\MainMenu\MainMenu\bin\Release\MainMenu.pdb
+D:\Visual Studio\MainMenu\MainMenu\bin\Release\MainMenu.xml
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.Form1.resources
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.frmSecond.resources
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.Resources.resources
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.vbproj.GenerateResource.Cache
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.exe
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.xml
+D:\Visual Studio\MainMenu\MainMenu\obj\Release\MainMenu.pdb

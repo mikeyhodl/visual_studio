@@ -1,0 +1,13 @@
+D:\Visual Studio\MainMenu\MainMenu\bin\Debug\MainMenu.exe.config
+D:\Visual Studio\MainMenu\MainMenu\bin\Debug\MainMenu.exe
+D:\Visual Studio\MainMenu\MainMenu\bin\Debug\MainMenu.pdb
+D:\Visual Studio\MainMenu\MainMenu\bin\Debug\MainMenu.xml
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.Form1.resources
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.Resources.resources
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.vbproj.GenerateResource.Cache
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.exe
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.xml
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.pdb
+D:\Visual Studio\MainMenu\MainMenu\obj\Debug\MainMenu.frmSecond.resources

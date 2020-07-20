@@ -1,0 +1,5 @@
+D:\Visual Studio\Save,update,delete\Save,update,delete\obj\Debug\Save,update,delete.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\Save,update,delete\Save,update,delete\obj\Debug\Save_update_delete.Form1.resources
+D:\Visual Studio\Save,update,delete\Save,update,delete\obj\Debug\Save_update_delete.Resources.resources
+D:\Visual Studio\Save,update,delete\Save,update,delete\obj\Debug\Save,update,delete.vbproj.GenerateResource.Cache
+D:\Visual Studio\Save,update,delete\Save,update,delete\obj\Debug\Save,update,delete.vbproj.CoreCompileInputs.cache

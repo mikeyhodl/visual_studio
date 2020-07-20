@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBEE7E95-EC4A-4B35-9C92-510244DEBC81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WANAFUNZINIDHAMUTRACKER.My.MyApplication</StartupObject>
+    <RootNamespace>WANAFUNZINIDHAMUTRACKER</RootNamespace>
+    <AssemblyName>WANAFUNZINIDHAMUTRACKER</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WANAFUNZINIDHAMUTRACKER.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WANAFUNZINIDHAMUTRACKER.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsClassEnrolment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClassEnrolment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClassLists.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClassLists.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClassOffensesCategStatisticsChart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClassOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClassOffensesCategStatisticsChart.vb">
+      <DependentUpon>dsClassOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsComparisonMajorMinorOffences.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComparisonMajorMinorOffences.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDormitoryOffensesCategStatisticsChart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDormitoryOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDormitoryOffensesCategStatisticsChart.vb">
+      <DependentUpon>dsDormitoryOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGenderDiscipline.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGenderDiscipline.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGenderIndisciplinePercentages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGenderIndisciplinePercentages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGenderIndisciplinePercentages.vb">
+      <DependentUpon>dsGenderIndisciplinePercentages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndisciplineCases2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIndisciplineCases2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndisciplineCases2.vb">
+      <DependentUpon>dsIndisciplineCases2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndisciplineCasesRpt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIndisciplineCasesRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndisciplinePercentages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIndisciplinePercentages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndisciplinePercentages.vb">
+      <DependentUpon>dsIndisciplinePercentages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIndividualMwanafunzi.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIndividualMwanafunzi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMajorOffences.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMajorOffences.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOffencesNarrations.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOffencesNarrations.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOffensesCategStatisticsChart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOffensesCategStatisticsChart.vb">
+      <DependentUpon>dsOffensesCategStatisticsChart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOffensesCategStatisticsChartByClass.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOffensesCategStatisticsChartByClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOverallOffenseAnalysis.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOverallOffenseAnalysis.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStudentDisciplineByDormitory.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStudentDisciplineByDormitory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSUBJECTS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSUBJECTS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassEnrolmentReportViewer.Designer.vb">
+      <DependentUpon>frmClassEnrolmentReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassEnrolmentReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassListsReportviewer.Designer.vb">
+      <DependentUpon>frmClassListsReportviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassListsReportviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassOffensesCategStatisticsChartReportViewer.Designer.vb">
+      <DependentUpon>frmClassOffensesCategStatisticsChartReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassOffensesCategStatisticsChartReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCLASSSTREAMS.Designer.vb">
+      <DependentUpon>frmCLASSSTREAMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCLASSSTREAMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComparisonMajorMinorOffences.Designer.vb">
+      <DependentUpon>frmComparisonMajorMinorOffences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmComparisonMajorMinorOffences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataEntryNIDHAMU.Designer.vb">
+      <DependentUpon>frmDataEntryNIDHAMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataEntryNIDHAMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiscontueLeavers.Designer.vb">
+      <DependentUpon>frmDiscontueLeavers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiscontueLeavers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDormitory.Designer.vb">
+      <DependentUpon>frmDormitory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDormitory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDormitoryOffensesCategStatisticsChartReportViewer.Designer.vb">
+      <DependentUpon>frmDormitoryOffensesCategStatisticsChartReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDormitoryOffensesCategStatisticsChartReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditNewStudents.Designer.vb">
+      <DependentUpon>frmEditNewStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditNewStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEDITS.Designer.vb">
+      <DependentUpon>frmEDITS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEDITS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditUploadedStudentsNidhamu.Designer.vb">
+      <DependentUpon>frmEditUploadedStudentsNidhamu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditUploadedStudentsNidhamu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenderDisciplineReportViewer.Designer.vb">
+      <DependentUpon>frmGenderDisciplineReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenderDisciplineReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenderIndisciplinePercentagesReportViewer.Designer.vb">
+      <DependentUpon>frmGenderIndisciplinePercentagesReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenderIndisciplinePercentagesReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndisciplineCasesReport.Designer.vb">
+      <DependentUpon>frmIndisciplineCasesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndisciplineCasesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndisciplinePercentagesReportViewer.Designer.vb">
+      <DependentUpon>frmIndisciplinePercentagesReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndisciplinePercentagesReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndividualMwanafunziReportViewer.Designer.vb">
+      <DependentUpon>frmIndividualMwanafunziReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndividualMwanafunziReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMajorOffencesReportViewerForm.Designer.vb">
+      <DependentUpon>frmMajorOffencesReportViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMajorOffencesReportViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNIDHAMUMain.Designer.vb">
+      <DependentUpon>frmNIDHAMUMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNIDHAMUMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffenceNarrationsReportViewer.Designer.vb">
+      <DependentUpon>frmOffenceNarrationsReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffenceNarrationsReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOFFENSESCATEGORIES.Designer.vb">
+      <DependentUpon>frmOFFENSESCATEGORIES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOFFENSESCATEGORIES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffensesCategStatisticsChart.Designer.vb">
+      <DependentUpon>frmOffensesCategStatisticsChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffensesCategStatisticsChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffensesCategStatisticsChartByClass.Designer.vb">
+      <DependentUpon>frmOffensesCategStatisticsChartByClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffensesCategStatisticsChartByClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOFFENSETYPE.Designer.vb">
+      <DependentUpon>frmOFFENSETYPE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOFFENSETYPE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPRELIMINARIES.Designer.vb">
+      <DependentUpon>frmPRELIMINARIES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPRELIMINARIES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintOuts.Designer.vb">
+      <DependentUpon>frmPrintOuts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintOuts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPromoteForm1ToForm2.Designer.vb">
+      <DependentUpon>frmPromoteForm1ToForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPromoteForm1ToForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPromoteForm2ToForm3.Designer.vb">
+      <DependentUpon>frmPromoteForm2ToForm3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPromoteForm2ToForm3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPromoteForm3ToForm4.Designer.vb">
+      <DependentUpon>frmPromoteForm3ToForm4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPromoteForm3ToForm4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPromoteForm4ToForm5.Designer.vb">
+      <DependentUpon>frmPromoteForm4ToForm5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPromoteForm4ToForm5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPromoteForm5ToForm6.Designer.vb">
+      <DependentUpon>frmPromoteForm5ToForm6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPromoteForm5ToForm6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegisterLoginUsers.Designer.vb">
+      <DependentUpon>frmRegisterLoginUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegisterLoginUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendForm4LeaversToArchive.Designer.vb">
+      <DependentUpon>frmSendForm4LeaversToArchive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendForm4LeaversToArchive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendForm6LeaversToArchive.Designer.vb">
+      <DependentUpon>frmSendForm6LeaversToArchive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendForm6LeaversToArchive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatisticalAnalysis.Designer.vb">
+      <DependentUpon>frmStatisticalAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatisticalAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatisticalAnalysis2.Designer.vb">
+      <DependentUpon>frmStatisticalAnalysis2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatisticalAnalysis2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentDisciplineByDormitoryReportViewer.Designer.vb">
+      <DependentUpon>frmStudentDisciplineByDormitoryReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentDisciplineByDormitoryReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentsDisciplineByClass.Designer.vb">
+      <DependentUpon>frmStudentsDisciplineByClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentsDisciplineByClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSUBJECTS.Designer.vb">
+      <DependentUpon>frmSUBJECTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSUBJECTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcome.Designer.vb">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDatabase.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PromotionsSwitchboard.Designer.vb">
+      <DependentUpon>PromotionsSwitchboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PromotionsSwitchboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsDisciplineByClass.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsDisciplineByClass.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmClassEnrolmentReportViewer.resx">
+      <DependentUpon>frmClassEnrolmentReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassListsReportviewer.resx">
+      <DependentUpon>frmClassListsReportviewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassOffensesCategStatisticsChartReportViewer.resx">
+      <DependentUpon>frmClassOffensesCategStatisticsChartReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCLASSSTREAMS.resx">
+      <DependentUpon>frmCLASSSTREAMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComparisonMajorMinorOffences.resx">
+      <DependentUpon>frmComparisonMajorMinorOffences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataEntryNIDHAMU.resx">
+      <DependentUpon>frmDataEntryNIDHAMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiscontueLeavers.resx">
+      <DependentUpon>frmDiscontueLeavers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDormitory.resx">
+      <DependentUpon>frmDormitory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDormitoryOffensesCategStatisticsChartReportViewer.resx">
+      <DependentUpon>frmDormitoryOffensesCategStatisticsChartReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditNewStudents.resx">
+      <DependentUpon>frmEditNewStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEDITS.resx">
+      <DependentUpon>frmEDITS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditUploadedStudentsNidhamu.resx">
+      <DependentUpon>frmEditUploadedStudentsNidhamu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenderDisciplineReportViewer.resx">
+      <DependentUpon>frmGenderDisciplineReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenderIndisciplinePercentagesReportViewer.resx">
+      <DependentUpon>frmGenderIndisciplinePercentagesReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndisciplineCasesReport.resx">
+      <DependentUpon>frmIndisciplineCasesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndisciplinePercentagesReportViewer.resx">
+      <DependentUpon>frmIndisciplinePercentagesReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndividualMwanafunziReportViewer.resx">
+      <DependentUpon>frmIndividualMwanafunziReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMajorOffencesReportViewerForm.resx">
+      <DependentUpon>frmMajorOffencesReportViewerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNIDHAMUMain.resx">
+      <DependentUpon>frmNIDHAMUMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffenceNarrationsReportViewer.resx">
+      <DependentUpon>frmOffenceNarrationsReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOFFENSESCATEGORIES.resx">
+      <DependentUpon>frmOFFENSESCATEGORIES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffensesCategStatisticsChart.resx">
+      <DependentUpon>frmOffensesCategStatisticsChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffensesCategStatisticsChartByClass.resx">
+      <DependentUpon>frmOffensesCategStatisticsChartByClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOFFENSETYPE.resx">
+      <DependentUpon>frmOFFENSETYPE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPRELIMINARIES.resx">
+      <DependentUpon>frmPRELIMINARIES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintOuts.resx">
+      <DependentUpon>frmPrintOuts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromoteForm1ToForm2.resx">
+      <DependentUpon>frmPromoteForm1ToForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromoteForm2ToForm3.resx">
+      <DependentUpon>frmPromoteForm2ToForm3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromoteForm3ToForm4.resx">
+      <DependentUpon>frmPromoteForm3ToForm4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromoteForm4ToForm5.resx">
+      <DependentUpon>frmPromoteForm4ToForm5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromoteForm5ToForm6.resx">
+      <DependentUpon>frmPromoteForm5ToForm6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegisterLoginUsers.resx">
+      <DependentUpon>frmRegisterLoginUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendForm4LeaversToArchive.resx">
+      <DependentUpon>frmSendForm4LeaversToArchive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendForm6LeaversToArchive.resx">
+      <DependentUpon>frmSendForm6LeaversToArchive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatisticalAnalysis.resx">
+      <DependentUpon>frmStatisticalAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatisticalAnalysis2.resx">
+      <DependentUpon>frmStatisticalAnalysis2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentDisciplineByDormitoryReportViewer.resx">
+      <DependentUpon>frmStudentDisciplineByDormitoryReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentsDisciplineByClass.resx">
+      <DependentUpon>frmStudentsDisciplineByClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSUBJECTS.resx">
+      <DependentUpon>frmSUBJECTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcome.resx">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromotionsSwitchboard.resx">
+      <DependentUpon>PromotionsSwitchboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptClassEnrolment.rdlc" />
+    <EmbeddedResource Include="rptClassLists.rdlc" />
+    <EmbeddedResource Include="RptClassOffensesCategStatisticsChart.rdlc" />
+    <EmbeddedResource Include="rptComparisonMajorMinorOffences.rdlc" />
+    <EmbeddedResource Include="RptDormitoryOffensesCategStatisticsChart.rdlc" />
+    <EmbeddedResource Include="rptGenderDiscipline.rdlc" />
+    <EmbeddedResource Include="RptGenderIndisciplinePercentages.rdlc" />
+    <EmbeddedResource Include="rptIndisciplineCases.rdlc" />
+    <EmbeddedResource Include="RptIndisciplineCases2.rdlc" />
+    <EmbeddedResource Include="RptIndisciplinePercentages.rdlc" />
+    <EmbeddedResource Include="RptIndividualMwanafunzi.rdlc" />
+    <EmbeddedResource Include="RptMajorOffences.rdlc" />
+    <EmbeddedResource Include="rptOffencesNarrations.rdlc" />
+    <EmbeddedResource Include="RptOffensesCategStatisticsChart.rdlc" />
+    <EmbeddedResource Include="RptOffensesCategStatisticsChartByClass.rdlc" />
+    <EmbeddedResource Include="RptOverallOffenseAnalysis.rdlc" />
+    <EmbeddedResource Include="RptStudentDisciplineByDormitory.rdlc" />
+    <EmbeddedResource Include="RptSUBJECTS.rdlc" />
+    <EmbeddedResource Include="StudentsDisciplineByClass.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsClassEnrolment.xsc">
+      <DependentUpon>dsClassEnrolment.xsd</DependentUpon>
+    </None>
+    <None Include="dsClassEnrolment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClassEnrolment.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsClassEnrolment.xss">
+      <DependentUpon>dsClassEnrolment.xsd</DependentUpon>
+    </None>
+    <None Include="dsClassLists.xsc">
+      <DependentUpon>dsClassLists.xsd</DependentUpon>
+    </None>
+    <None Include="dsClassLists.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClassLists.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsClassLists.xss">
+      <DependentUpon>dsClassLists.xsd</DependentUpon>
+    </None>
+    <None Include="dsClassOffensesCategStatisticsChart.xsc">
+      <DependentUpon>dsClassOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsClassOffensesCategStatisticsChart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClassOffensesCategStatisticsChart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsClassOffensesCategStatisticsChart.xss">
+      <DependentUpon>dsClassOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsComparisonMajorMinorOffences.xsc">
+      <DependentUpon>dsComparisonMajorMinorOffences.xsd</DependentUpon>
+    </None>
+    <None Include="dsComparisonMajorMinorOffences.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComparisonMajorMinorOffences.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsComparisonMajorMinorOffences.xss">
+      <DependentUpon>dsComparisonMajorMinorOffences.xsd</DependentUpon>
+    </None>
+    <None Include="dsDormitoryOffensesCategStatisticsChart.xsc">
+      <DependentUpon>dsDormitoryOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsDormitoryOffensesCategStatisticsChart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDormitoryOffensesCategStatisticsChart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsDormitoryOffensesCategStatisticsChart.xss">
+      <DependentUpon>dsDormitoryOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsGenderDiscipline.xsc">
+      <DependentUpon>dsGenderDiscipline.xsd</DependentUpon>
+    </None>
+    <None Include="dsGenderDiscipline.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGenderDiscipline.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsGenderDiscipline.xss">
+      <DependentUpon>dsGenderDiscipline.xsd</DependentUpon>
+    </None>
+    <None Include="dsGenderIndisciplinePercentages.xsc">
+      <DependentUpon>dsGenderIndisciplinePercentages.xsd</DependentUpon>
+    </None>
+    <None Include="dsGenderIndisciplinePercentages.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGenderIndisciplinePercentages.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsGenderIndisciplinePercentages.xss">
+      <DependentUpon>dsGenderIndisciplinePercentages.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplineCases2.xsc">
+      <DependentUpon>dsIndisciplineCases2.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplineCases2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIndisciplineCases2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIndisciplineCases2.xss">
+      <DependentUpon>dsIndisciplineCases2.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplineCasesRpt.xsc">
+      <DependentUpon>dsIndisciplineCasesRpt.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplineCasesRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIndisciplineCasesRpt.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIndisciplineCasesRpt.xss">
+      <DependentUpon>dsIndisciplineCasesRpt.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplinePercentages.xsc">
+      <DependentUpon>dsIndisciplinePercentages.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndisciplinePercentages.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIndisciplinePercentages.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIndisciplinePercentages.xss">
+      <DependentUpon>dsIndisciplinePercentages.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndividualMwanafunzi.xsc">
+      <DependentUpon>dsIndividualMwanafunzi.xsd</DependentUpon>
+    </None>
+    <None Include="dsIndividualMwanafunzi.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIndividualMwanafunzi.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIndividualMwanafunzi.xss">
+      <DependentUpon>dsIndividualMwanafunzi.xsd</DependentUpon>
+    </None>
+    <None Include="dsMajorOffences.xsc">
+      <DependentUpon>dsMajorOffences.xsd</DependentUpon>
+    </None>
+    <None Include="dsMajorOffences.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMajorOffences.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsMajorOffences.xss">
+      <DependentUpon>dsMajorOffences.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffencesNarrations.xsc">
+      <DependentUpon>dsOffencesNarrations.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffencesNarrations.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOffencesNarrations.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOffencesNarrations.xss">
+      <DependentUpon>dsOffencesNarrations.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffensesCategStatisticsChart.xsc">
+      <DependentUpon>dsOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffensesCategStatisticsChart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOffensesCategStatisticsChart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOffensesCategStatisticsChart.xss">
+      <DependentUpon>dsOffensesCategStatisticsChart.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffensesCategStatisticsChartByClass.xsc">
+      <DependentUpon>dsOffensesCategStatisticsChartByClass.xsd</DependentUpon>
+    </None>
+    <None Include="dsOffensesCategStatisticsChartByClass.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOffensesCategStatisticsChartByClass.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOffensesCategStatisticsChartByClass.xss">
+      <DependentUpon>dsOffensesCategStatisticsChartByClass.xsd</DependentUpon>
+    </None>
+    <None Include="dsOverallOffenseAnalysis.xsc">
+      <DependentUpon>dsOverallOffenseAnalysis.xsd</DependentUpon>
+    </None>
+    <None Include="dsOverallOffenseAnalysis.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOverallOffenseAnalysis.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOverallOffenseAnalysis.xss">
+      <DependentUpon>dsOverallOffenseAnalysis.xsd</DependentUpon>
+    </None>
+    <None Include="dsStudentDisciplineByDormitory.xsc">
+      <DependentUpon>dsStudentDisciplineByDormitory.xsd</DependentUpon>
+    </None>
+    <None Include="dsStudentDisciplineByDormitory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStudentDisciplineByDormitory.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsStudentDisciplineByDormitory.xss">
+      <DependentUpon>dsStudentDisciplineByDormitory.xsd</DependentUpon>
+    </None>
+    <None Include="dsSUBJECTS.xsc">
+      <DependentUpon>dsSUBJECTS.xsd</DependentUpon>
+    </None>
+    <None Include="dsSUBJECTS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSUBJECTS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSUBJECTS.xss">
+      <DependentUpon>dsSUBJECTS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\MyScrollIcon.docx" />
+    <None Include="StudentsDisciplineByClass.xsc">
+      <DependentUpon>StudentsDisciplineByClass.xsd</DependentUpon>
+    </None>
+    <None Include="StudentsDisciplineByClass.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StudentsDisciplineByClass.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StudentsDisciplineByClass.xss">
+      <DependentUpon>StudentsDisciplineByClass.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letter-A-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

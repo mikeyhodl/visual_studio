@@ -1,0 +1,11 @@
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\bin\Release\ProjStudentsMarks.exe.config
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\bin\Release\ProjStudentsMarks.exe
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\bin\Release\ProjStudentsMarks.pdb
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\bin\Release\ProjStudentsMarks.xml
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.frmStudentsMarks.resources
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.Resources.resources
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.vbproj.GenerateResource.Cache
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.exe
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.xml
+D:\Visual Studio\ProjStudentsMarks\ProjStudentsMarks\obj\Release\ProjStudentsMarks.pdb

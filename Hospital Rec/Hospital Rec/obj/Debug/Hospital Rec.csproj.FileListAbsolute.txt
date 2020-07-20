@@ -1,0 +1,9 @@
+D:\Visual Studio\Hospital Rec\Hospital Rec\bin\Debug\Hospital Rec.exe.config
+D:\Visual Studio\Hospital Rec\Hospital Rec\bin\Debug\Hospital Rec.exe
+D:\Visual Studio\Hospital Rec\Hospital Rec\bin\Debug\Hospital Rec.pdb
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital_Rec.Form1.resources
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital_Rec.Properties.Resources.resources
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital Rec.csproj.GenerateResource.Cache
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital Rec.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital Rec.exe
+D:\Visual Studio\Hospital Rec\Hospital Rec\obj\Debug\Hospital Rec.pdb

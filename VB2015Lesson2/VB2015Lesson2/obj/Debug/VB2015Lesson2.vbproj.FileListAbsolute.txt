@@ -1,0 +1,11 @@
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\bin\Debug\VB2015Lesson2.exe.config
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\bin\Debug\VB2015Lesson2.exe
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\bin\Debug\VB2015Lesson2.pdb
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\bin\Debug\VB2015Lesson2.xml
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.MyForm.resources
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.Resources.resources
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.vbproj.GenerateResource.Cache
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.exe
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.xml
+D:\Visual Studio\VB2015Lesson2\VB2015Lesson2\obj\Debug\VB2015Lesson2.pdb

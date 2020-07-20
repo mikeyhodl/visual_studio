@@ -1,0 +1,11 @@
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\bin\Debug\ProjStudentsMarks.exe.config
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\bin\Debug\ProjStudentsMarks.exe
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\bin\Debug\ProjStudentsMarks.pdb
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\bin\Debug\ProjStudentsMarks.xml
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.vbprojResolveAssemblyReference.cache
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.frmStudentsMarks.resources
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.Resources.resources
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.vbproj.GenerateResource.Cache
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.exe
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.xml
+C:\Users\Okumu\Documents\Visual Studio 2015\Projects\ProjStudentsMarks\ProjStudentsMarks\obj\Debug\ProjStudentsMarks.pdb

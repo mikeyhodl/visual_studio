@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGenderIndisciplinePercentages" targetNamespace="http://tempuri.org/dsGenderIndisciplinePercentages.xsd" xmlns:mstns="http://tempuri.org/dsGenderIndisciplinePercentages.xsd" xmlns="http://tempuri.org/dsGenderIndisciplinePercentages.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGenderIndisciplinePercentages" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGenderIndisciplinePercentages" msprop:Generator_UserDSName="dsGenderIndisciplinePercentages">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtGenderIndisciplinePercentages" msprop:Generator_TableClassName="dtGenderIndisciplinePercentagesDataTable" msprop:Generator_TableVarName="tabledtGenderIndisciplinePercentages" msprop:Generator_TablePropName="dtGenderIndisciplinePercentages" msprop:Generator_RowDeletingName="dtGenderIndisciplinePercentagesRowDeleting" msprop:Generator_RowChangingName="dtGenderIndisciplinePercentagesRowChanging" msprop:Generator_RowEvHandlerName="dtGenderIndisciplinePercentagesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtGenderIndisciplinePercentagesRowDeleted" msprop:Generator_UserTableName="dtGenderIndisciplinePercentages" msprop:Generator_RowChangedName="dtGenderIndisciplinePercentagesRowChanged" msprop:Generator_RowEvArgName="dtGenderIndisciplinePercentagesRowChangeEvent" msprop:Generator_RowClassName="dtGenderIndisciplinePercentagesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GENDER" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnPropNameInTable="GenderColumn" msprop:Generator_UserColumnName="GENDER" type="xs:string" minOccurs="0" />
+              <xs:element name="ADMISSIONNUMBER" msprop:Generator_ColumnVarNameInTable="columnADMISSIONNUMBER" msprop:Generator_ColumnPropNameInRow="ADMISSIONNUMBER" msprop:Generator_ColumnPropNameInTable="ADMISSIONNUMBERColumn" msprop:Generator_UserColumnName="ADMISSIONNUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="OFFENSECATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="GENDERENROLMENT" msprop:Generator_ColumnVarNameInTable="columnGenderEnrolment" msprop:Generator_ColumnPropNameInRow="GenderEnrolment" msprop:Generator_ColumnPropNameInTable="GenderEnrolmentColumn" msprop:Generator_UserColumnName="GENDERENROLMENT" type="xs:float" minOccurs="0" />
+              <xs:element name="TYPEOFOFFENSE" msprop:Generator_ColumnVarNameInTable="columnTYPEOFOFFENSE" msprop:Generator_ColumnPropNameInRow="TYPEOFOFFENSE" msprop:Generator_ColumnPropNameInTable="TYPEOFOFFENSEColumn" msprop:Generator_UserColumnName="TYPEOFOFFENSE" type="xs:string" minOccurs="0" />
+              <xs:element name="OCCURENCECOUNT" msprop:Generator_ColumnVarNameInTable="columnOCCURENCECOUNT" msprop:Generator_ColumnPropNameInRow="OCCURENCECOUNT" msprop:Generator_ColumnPropNameInTable="OCCURENCECOUNTColumn" msprop:Generator_UserColumnName="OCCURENCECOUNT" type="xs:float" minOccurs="0" />
+              <xs:element name="PERCENTAGEOCCURENCE" msprop:Generator_ColumnVarNameInTable="columnPERCENTAGEOCCURENCE" msprop:Generator_ColumnPropNameInRow="PERCENTAGEOCCURENCE" msprop:Generator_ColumnPropNameInTable="PERCENTAGEOCCURENCEColumn" msprop:Generator_UserColumnName="PERCENTAGEOCCURENCE" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\bin\Debug\VB2015Lesson6Rp.exe.config
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\bin\Debug\VB2015Lesson6Rp.exe
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\bin\Debug\VB2015Lesson6Rp.pdb
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\bin\Debug\VB2015Lesson6Rp.xml
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.Form1.resources
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.Resources.resources
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.vbproj.GenerateResource.Cache
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.exe
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.xml
+D:\Visual Studio\VB2015Lesson6Rp\VB2015Lesson6Rp\obj\Debug\VB2015Lesson6Rp.pdb

@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WANAFUNZINIDHAMUTRACKER
+</name>
+</assembly>
+<members>
+<member name="T:WANAFUNZINIDHAMUTRACKER.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WANAFUNZINIDHAMUTRACKER.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WANAFUNZINIDHAMUTRACKER.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WANAFUNZINIDHAMUTRACKER.My.Resources.Resources.Letter_A_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WANAFUNZINIDHAMUTRACKER.My.Resources.Resources.MyScrollIcon">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassEnrolment">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassEnrolment.dtClassEnrolmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassEnrolment.dtClassEnrolmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassEnrolment.dtClassEnrolmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassLists">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassLists.dtClassListsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassLists.dtClassListsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassLists.dtClassListsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassOffensesCategStatisticsChart">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassOffensesCategStatisticsChart.dtClassOffensesCategStatisticsChartDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassOffensesCategStatisticsChart.dtClassOffensesCategStatisticsChartRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsClassOffensesCategStatisticsChart.dtClassOffensesCategStatisticsChartRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsComparisonMajorMinorOffences">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsComparisonMajorMinorOffences.dtComparisonMajorMinorOffencesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsComparisonMajorMinorOffences.dtComparisonMajorMinorOffencesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsComparisonMajorMinorOffences.dtComparisonMajorMinorOffencesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsDormitoryOffensesCategStatisticsChart">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsDormitoryOffensesCategStatisticsChart.dtDormitoryOffensesCategStatisticsChartDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsDormitoryOffensesCategStatisticsChart.dtDormitoryOffensesCategStatisticsChartRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsDormitoryOffensesCategStatisticsChart.dtDormitoryOffensesCategStatisticsChartRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderDiscipline">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderDiscipline.dtGenderDisciplineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderDiscipline.dtGenderDisciplineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderDiscipline.dtGenderDisciplineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderIndisciplinePercentages">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderIndisciplinePercentages.dtGenderIndisciplinePercentagesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderIndisciplinePercentages.dtGenderIndisciplinePercentagesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsGenderIndisciplinePercentages.dtGenderIndisciplinePercentagesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCases2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCases2.dtIndisciplineCases2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCases2.dtIndisciplineCases2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCases2.dtIndisciplineCases2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCasesRpt">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCasesRpt.dtIndisciplineCasesRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCasesRpt.dtIndisciplineCasesRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplineCasesRpt.dtIndisciplineCasesRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplinePercentages">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplinePercentages.dtIndisciplinePercentagesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplinePercentages.dtIndisciplinePercentagesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndisciplinePercentages.dtIndisciplinePercentagesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndividualMwanafunzi">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndividualMwanafunzi.dtIndividualMwanafunziDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndividualMwanafunzi.dtIndividualMwanafunziRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsIndividualMwanafunzi.dtIndividualMwanafunziRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsMajorOffences">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsMajorOffences.dtMajorOffencesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsMajorOffences.dtMajorOffencesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsMajorOffences.dtMajorOffencesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffencesNarrations">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffencesNarrations.dtOffencesNarrationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffencesNarrations.dtOffencesNarrationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffencesNarrations.dtOffencesNarrationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChart">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChart.dtOffensesCategStatisticsChartDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChart.dtOffensesCategStatisticsChartRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChart.dtOffensesCategStatisticsChartRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChartByClass">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChartByClass.dtOffensesCategStatisticsChartByClassDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChartByClass.dtOffensesCategStatisticsChartByClassRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOffensesCategStatisticsChartByClass.dtOffensesCategStatisticsChartByClassRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOverallOffenseAnalysis">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOverallOffenseAnalysis.dtOverallOffenseAnalysisDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOverallOffenseAnalysis.dtOverallOffenseAnalysisRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsOverallOffenseAnalysis.dtOverallOffenseAnalysisRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentDisciplineByDormitory">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentDisciplineByDormitory.dtStudentDisciplineByDormitoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentDisciplineByDormitory.dtStudentDisciplineByDormitoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentDisciplineByDormitory.dtStudentDisciplineByDormitoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsSUBJECTS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsSUBJECTS.dtSUBJECTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsSUBJECTS.dtSUBJECTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsSUBJECTS.dtSUBJECTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentsDisciplineByClass">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentsDisciplineByClass.dtStudentsDisciplineByClassDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentsDisciplineByClass.dtStudentsDisciplineByClassRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WANAFUNZINIDHAMUTRACKER.dsStudentsDisciplineByClass.dtStudentsDisciplineByClassRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

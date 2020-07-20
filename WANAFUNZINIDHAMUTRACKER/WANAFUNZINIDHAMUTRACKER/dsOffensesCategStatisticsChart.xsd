@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOffensesCategStatisticsChart" targetNamespace="http://tempuri.org/dsOffensesCategStatisticsChart.xsd" xmlns:mstns="http://tempuri.org/dsOffensesCategStatisticsChart.xsd" xmlns="http://tempuri.org/dsOffensesCategStatisticsChart.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOffensesCategStatisticsChart" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsOffensesCategStatisticsChart" msprop:Generator_UserDSName="dsOffensesCategStatisticsChart">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtOffensesCategStatisticsChart" msprop:Generator_TableClassName="dtOffensesCategStatisticsChartDataTable" msprop:Generator_TableVarName="tabledtOffensesCategStatisticsChart" msprop:Generator_TablePropName="dtOffensesCategStatisticsChart" msprop:Generator_RowDeletingName="dtOffensesCategStatisticsChartRowDeleting" msprop:Generator_RowChangingName="dtOffensesCategStatisticsChartRowChanging" msprop:Generator_RowEvHandlerName="dtOffensesCategStatisticsChartRowChangeEventHandler" msprop:Generator_RowDeletedName="dtOffensesCategStatisticsChartRowDeleted" msprop:Generator_UserTableName="dtOffensesCategStatisticsChart" msprop:Generator_RowChangedName="dtOffensesCategStatisticsChartRowChanged" msprop:Generator_RowEvArgName="dtOffensesCategStatisticsChartRowChangeEvent" msprop:Generator_RowClassName="dtOffensesCategStatisticsChartRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OFFENSECATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="OCCURENCECOUNT" msprop:Generator_ColumnVarNameInTable="columnOCCURENCECOUNT" msprop:Generator_ColumnPropNameInRow="OCCURENCECOUNT" msprop:Generator_ColumnPropNameInTable="OCCURENCECOUNTColumn" msprop:Generator_UserColumnName="OCCURENCECOUNT" type="xs:float" minOccurs="0" />
+              <xs:element name="PERCENTAGEOFOCCURENCE" msprop:Generator_ColumnVarNameInTable="columnPERCENTAGEOFOCCURENCE" msprop:Generator_ColumnPropNameInRow="PERCENTAGEOFOCCURENCE" msprop:Generator_ColumnPropNameInTable="PERCENTAGEOFOCCURENCEColumn" msprop:Generator_UserColumnName="PERCENTAGEOFOCCURENCE" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

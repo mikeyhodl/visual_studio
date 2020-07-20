@@ -1,0 +1,12 @@
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\bin\Debug\Copy,move,delete.exe.config
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\bin\Debug\Copy,move,delete.exe
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\bin\Debug\Copy,move,delete.pdb
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\bin\Debug\Copy,move,delete.xml
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy_move_delete.Form1.resources
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy_move_delete.Resources.resources
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.vbproj.GenerateResource.Cache
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.exe
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.xml
+D:\Visual Studio\Copy,move,delete\Copy,move,delete\obj\Debug\Copy,move,delete.pdb

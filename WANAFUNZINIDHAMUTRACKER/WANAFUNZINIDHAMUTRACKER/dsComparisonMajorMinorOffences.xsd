@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsComparisonMajorMinorOffences" targetNamespace="http://tempuri.org/dsComparisonMajorMinorOffences.xsd" xmlns:mstns="http://tempuri.org/dsComparisonMajorMinorOffences.xsd" xmlns="http://tempuri.org/dsComparisonMajorMinorOffences.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsComparisonMajorMinorOffences" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsComparisonMajorMinorOffences" msprop:Generator_UserDSName="dsComparisonMajorMinorOffences">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtComparisonMajorMinorOffences" msprop:Generator_TableClassName="dtComparisonMajorMinorOffencesDataTable" msprop:Generator_TableVarName="tabledtComparisonMajorMinorOffences" msprop:Generator_TablePropName="dtComparisonMajorMinorOffences" msprop:Generator_RowDeletingName="dtComparisonMajorMinorOffencesRowDeleting" msprop:Generator_RowChangingName="dtComparisonMajorMinorOffencesRowChanging" msprop:Generator_RowEvHandlerName="dtComparisonMajorMinorOffencesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtComparisonMajorMinorOffencesRowDeleted" msprop:Generator_UserTableName="dtComparisonMajorMinorOffences" msprop:Generator_RowChangedName="dtComparisonMajorMinorOffencesRowChanged" msprop:Generator_RowEvArgName="dtComparisonMajorMinorOffencesRowChangeEvent" msprop:Generator_RowClassName="dtComparisonMajorMinorOffencesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TYPEOFOFFENSE" msprop:Generator_ColumnVarNameInTable="columnTYPEOFOFFENSE" msprop:Generator_ColumnPropNameInRow="TYPEOFOFFENSE" msprop:Generator_ColumnPropNameInTable="TYPEOFOFFENSEColumn" msprop:Generator_UserColumnName="TYPEOFOFFENSE" type="xs:string" minOccurs="0" />
+              <xs:element name="OFFENSECATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="MAJOROFFENCESCOUNT" msprop:Generator_ColumnVarNameInTable="columnMAJOROFFENCESCOUNT" msprop:Generator_ColumnPropNameInRow="MAJOROFFENCESCOUNT" msprop:Generator_ColumnPropNameInTable="MAJOROFFENCESCOUNTColumn" msprop:Generator_UserColumnName="MAJOROFFENCESCOUNT" type="xs:float" minOccurs="0" />
+              <xs:element name="MINOROFFENCESCOUNT" msprop:Generator_ColumnVarNameInTable="columnMINOROFFENCESCOUNT" msprop:Generator_ColumnPropNameInRow="MINOROFFENCESCOUNT" msprop:Generator_ColumnPropNameInTable="MINOROFFENCESCOUNTColumn" msprop:Generator_UserColumnName="MINOROFFENCESCOUNT" type="xs:float" minOccurs="0" />
+              <xs:element name="PERCENT" msprop:Generator_ColumnVarNameInTable="columnPERCENT" msprop:Generator_ColumnPropNameInRow="PERCENT" msprop:Generator_ColumnPropNameInTable="PERCENTColumn" msprop:Generator_UserColumnName="PERCENT" type="xs:float" minOccurs="0" />
+              <xs:element name="ALLOFFENCESCOUNT" msprop:Generator_ColumnVarNameInTable="columnALLOFFENCESCOUNT" msprop:Generator_ColumnPropNameInRow="ALLOFFENCESCOUNT" msprop:Generator_ColumnPropNameInTable="ALLOFFENCESCOUNTColumn" msprop:Generator_UserColumnName="ALLOFFENCESCOUNT" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

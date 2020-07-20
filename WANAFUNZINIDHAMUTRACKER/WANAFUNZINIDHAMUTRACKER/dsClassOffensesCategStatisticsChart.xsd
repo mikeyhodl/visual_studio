@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsClassOffensesCategStatisticsChart" targetNamespace="http://tempuri.org/dsClassOffensesCategStatisticsChart.xsd" xmlns:mstns="http://tempuri.org/dsClassOffensesCategStatisticsChart.xsd" xmlns="http://tempuri.org/dsClassOffensesCategStatisticsChart.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsClassOffensesCategStatisticsChart" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsClassOffensesCategStatisticsChart" msprop:Generator_UserDSName="dsClassOffensesCategStatisticsChart">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtClassOffensesCategStatisticsChart" msprop:Generator_TableClassName="dtClassOffensesCategStatisticsChartDataTable" msprop:Generator_TableVarName="tabledtClassOffensesCategStatisticsChart" msprop:Generator_TablePropName="dtClassOffensesCategStatisticsChart" msprop:Generator_RowDeletingName="dtClassOffensesCategStatisticsChartRowDeleting" msprop:Generator_RowChangingName="dtClassOffensesCategStatisticsChartRowChanging" msprop:Generator_RowEvHandlerName="dtClassOffensesCategStatisticsChartRowChangeEventHandler" msprop:Generator_RowDeletedName="dtClassOffensesCategStatisticsChartRowDeleted" msprop:Generator_UserTableName="dtClassOffensesCategStatisticsChart" msprop:Generator_RowChangedName="dtClassOffensesCategStatisticsChartRowChanged" msprop:Generator_RowEvArgName="dtClassOffensesCategStatisticsChartRowChangeEvent" msprop:Generator_RowClassName="dtClassOffensesCategStatisticsChartRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLASS" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInRow="_Class" msprop:Generator_ColumnPropNameInTable="ClassColumn" msprop:Generator_UserColumnName="CLASS" type="xs:string" minOccurs="0" />
+              <xs:element name="STREAM" msprop:Generator_ColumnVarNameInTable="columnStream" msprop:Generator_ColumnPropNameInRow="Stream" msprop:Generator_ColumnPropNameInTable="StreamColumn" msprop:Generator_UserColumnName="STREAM" type="xs:string" minOccurs="0" />
+              <xs:element name="STREAMENROLMENT" msprop:Generator_ColumnVarNameInTable="columnSTREAMENROLMENT" msprop:Generator_ColumnPropNameInRow="STREAMENROLMENT" msprop:Generator_ColumnPropNameInTable="STREAMENROLMENTColumn" msprop:Generator_UserColumnName="STREAMENROLMENT" type="xs:float" minOccurs="0" />
+              <xs:element name="TYPEOFOFFENSE" msprop:Generator_ColumnVarNameInTable="columnTYPEOFOFFENSE" msprop:Generator_ColumnPropNameInRow="TYPEOFOFFENSE" msprop:Generator_ColumnPropNameInTable="TYPEOFOFFENSEColumn" msprop:Generator_UserColumnName="TYPEOFOFFENSE" type="xs:string" minOccurs="0" />
+              <xs:element name="OFFENSECATEGORY" msdata:Caption="OFFENCE CATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="OCCURENCECOUNT" msdata:Caption="OCCURENCE COUNT" msprop:Generator_ColumnVarNameInTable="columnOCCURENCECOUNT" msprop:Generator_ColumnPropNameInRow="OCCURENCECOUNT" msprop:Generator_ColumnPropNameInTable="OCCURENCECOUNTColumn" msprop:Generator_UserColumnName="OCCURENCECOUNT" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

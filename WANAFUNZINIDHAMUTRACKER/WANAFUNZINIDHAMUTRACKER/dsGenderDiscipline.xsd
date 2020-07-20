@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGenderDiscipline" targetNamespace="http://tempuri.org/dsGenderDiscipline.xsd" xmlns:mstns="http://tempuri.org/dsGenderDiscipline.xsd" xmlns="http://tempuri.org/dsGenderDiscipline.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGenderDiscipline" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGenderDiscipline" msprop:Generator_UserDSName="dsGenderDiscipline">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtGenderDiscipline" msprop:Generator_TableClassName="dtGenderDisciplineDataTable" msprop:Generator_TableVarName="tabledtGenderDiscipline" msprop:Generator_RowChangedName="dtGenderDisciplineRowChanged" msprop:Generator_TablePropName="dtGenderDiscipline" msprop:Generator_RowDeletingName="dtGenderDisciplineRowDeleting" msprop:Generator_RowChangingName="dtGenderDisciplineRowChanging" msprop:Generator_RowEvHandlerName="dtGenderDisciplineRowChangeEventHandler" msprop:Generator_RowDeletedName="dtGenderDisciplineRowDeleted" msprop:Generator_RowClassName="dtGenderDisciplineRow" msprop:Generator_UserTableName="dtGenderDiscipline" msprop:Generator_RowEvArgName="dtGenderDisciplineRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GENDER" msprop:Generator_ColumnVarNameInTable="columnGENDER" msprop:Generator_ColumnPropNameInRow="GENDER" msprop:Generator_ColumnPropNameInTable="GENDERColumn" msprop:Generator_UserColumnName="GENDER" type="xs:string" minOccurs="0" />
+              <xs:element name="ADMISSIONNUMBER" msprop:Generator_ColumnVarNameInTable="columnADMISSIONNUMBER" msprop:Generator_ColumnPropNameInRow="ADMISSIONNUMBER" msprop:Generator_ColumnPropNameInTable="ADMISSIONNUMBERColumn" msprop:Generator_UserColumnName="ADMISSIONNUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPEOFOFFENSE" msprop:Generator_ColumnVarNameInTable="columnTYPEOFOFFENSE" msprop:Generator_ColumnPropNameInRow="TYPEOFOFFENSE" msprop:Generator_ColumnPropNameInTable="TYPEOFOFFENSEColumn" msprop:Generator_UserColumnName="TYPEOFOFFENSE" type="xs:string" minOccurs="0" />
+              <xs:element name="OFFENSECATEGORY" msprop:Generator_ColumnVarNameInTable="columnOFFENSECATEGORY" msprop:Generator_ColumnPropNameInRow="OFFENSECATEGORY" msprop:Generator_ColumnPropNameInTable="OFFENSECATEGORYColumn" msprop:Generator_UserColumnName="OFFENSECATEGORY" type="xs:string" minOccurs="0" />
+              <xs:element name="GENDERENROLMENT" msprop:Generator_ColumnVarNameInTable="columnGENDERENROLMENT" msprop:Generator_ColumnPropNameInRow="GENDERENROLMENT" msprop:Generator_ColumnPropNameInTable="GENDERENROLMENTColumn" msprop:Generator_UserColumnName="GENDERENROLMENT" type="xs:float" minOccurs="0" />
+              <xs:element name="OCCURENCECOUNT" msprop:Generator_ColumnVarNameInTable="columnOCCURENCECOUNT" msprop:Generator_ColumnPropNameInRow="OCCURENCECOUNT" msprop:Generator_ColumnPropNameInTable="OCCURENCECOUNTColumn" msprop:Generator_UserColumnName="OCCURENCECOUNT" type="xs:float" minOccurs="0" />
+              <xs:element name="PERCENT" msprop:Generator_ColumnVarNameInTable="columnPERCENT" msprop:Generator_ColumnPropNameInRow="PERCENT" msprop:Generator_ColumnPropNameInTable="PERCENTColumn" msprop:Generator_UserColumnName="PERCENT" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+D:\Visual Studio\NavigateButtons\NavigateButtons\bin\Debug\NavigateButtons.exe.config
+D:\Visual Studio\NavigateButtons\NavigateButtons\bin\Debug\NavigateButtons.exe
+D:\Visual Studio\NavigateButtons\NavigateButtons\bin\Debug\NavigateButtons.pdb
+D:\Visual Studio\NavigateButtons\NavigateButtons\bin\Debug\NavigateButtons.xml
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.vbprojResolveAssemblyReference.cache
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.Form1.resources
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.Resources.resources
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.vbproj.GenerateResource.Cache
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.exe
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.xml
+D:\Visual Studio\NavigateButtons\NavigateButtons\obj\Debug\NavigateButtons.pdb

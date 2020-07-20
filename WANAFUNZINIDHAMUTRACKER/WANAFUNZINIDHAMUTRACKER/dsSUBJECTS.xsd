@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSUBJECTS" targetNamespace="http://tempuri.org/dsSUBJECTS.xsd" xmlns:mstns="http://tempuri.org/dsSUBJECTS.xsd" xmlns="http://tempuri.org/dsSUBJECTS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSUBJECTS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSUBJECTS" msprop:Generator_UserDSName="dsSUBJECTS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSUBJECTS" msprop:Generator_TableClassName="dtSUBJECTSDataTable" msprop:Generator_TableVarName="tabledtSUBJECTS" msprop:Generator_TablePropName="dtSUBJECTS" msprop:Generator_RowDeletingName="dtSUBJECTSRowDeleting" msprop:Generator_RowChangingName="dtSUBJECTSRowChanging" msprop:Generator_RowEvHandlerName="dtSUBJECTSRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSUBJECTSRowDeleted" msprop:Generator_UserTableName="dtSUBJECTS" msprop:Generator_RowChangedName="dtSUBJECTSRowChanged" msprop:Generator_RowEvArgName="dtSUBJECTSRowChangeEvent" msprop:Generator_RowClassName="dtSUBJECTSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="NAMEOFSTUDENT" msprop:Generator_ColumnVarNameInTable="columnNAMEOFSTUDENT" msprop:Generator_ColumnPropNameInRow="NAMEOFSTUDENT" msprop:Generator_ColumnPropNameInTable="NAMEOFSTUDENTColumn" msprop:Generator_UserColumnName="NAMEOFSTUDENT" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP4SUBJECTS" msprop:Generator_ColumnVarNameInTable="columnGROUP4SUBJECTS" msprop:Generator_ColumnPropNameInRow="GROUP4SUBJECTS" msprop:Generator_ColumnPropNameInTable="GROUP4SUBJECTSColumn" msprop:Generator_UserColumnName="GROUP4SUBJECTS" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP4MARKS" msprop:Generator_ColumnVarNameInTable="columnGROUP4MARKS" msprop:Generator_ColumnPropNameInRow="GROUP4MARKS" msprop:Generator_ColumnPropNameInTable="GROUP4MARKSColumn" msprop:Generator_UserColumnName="GROUP4MARKS" type="xs:double" minOccurs="0" />
+              <xs:element name="GROUP5SUBJECTS" msprop:Generator_ColumnVarNameInTable="columnGROUP5SUBJECTS" msprop:Generator_ColumnPropNameInRow="GROUP5SUBJECTS" msprop:Generator_ColumnPropNameInTable="GROUP5SUBJECTSColumn" msprop:Generator_UserColumnName="GROUP5SUBJECTS" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP5MARKS" msprop:Generator_ColumnVarNameInTable="columnGROUP5MARKS" msprop:Generator_ColumnPropNameInRow="GROUP5MARKS" msprop:Generator_ColumnPropNameInTable="GROUP5MARKSColumn" msprop:Generator_UserColumnName="GROUP5MARKS" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

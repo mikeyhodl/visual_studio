@@ -1,0 +1,11 @@
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\bin\Debug\Add,Update,Delete.exe.config
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\bin\Debug\Add,Update,Delete.exe
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\bin\Debug\Add,Update,Delete.pdb
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\bin\Debug\Add,Update,Delete.xml
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add_Update_Delete.Form1.resources
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add_Update_Delete.Resources.resources
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add,Update,Delete.vbproj.GenerateResource.Cache
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add,Update,Delete.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add,Update,Delete.exe
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add,Update,Delete.xml
+D:\Visual Studio\Add,Update,Delete\Add,Update,Delete\obj\Debug\Add,Update,Delete.pdb

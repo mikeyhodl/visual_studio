@@ -1,0 +1,11 @@
+D:\Visual Studio\TimesApp\TimesApp\bin\Debug\TimesApp.exe.config
+D:\Visual Studio\TimesApp\TimesApp\bin\Debug\TimesApp.exe
+D:\Visual Studio\TimesApp\TimesApp\bin\Debug\TimesApp.pdb
+D:\Visual Studio\TimesApp\TimesApp\bin\Debug\TimesApp.xml
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.Form1.resources
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.Resources.resources
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.vbproj.GenerateResource.Cache
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.vbproj.CoreCompileInputs.cache
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.exe
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.xml
+D:\Visual Studio\TimesApp\TimesApp\obj\Debug\TimesApp.pdb
